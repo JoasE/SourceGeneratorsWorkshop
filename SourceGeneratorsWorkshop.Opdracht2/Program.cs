@@ -1,6 +1,8 @@
-﻿using AotMapper;
+﻿using SourceGeneratorsWorkshop.Opdracht2;
+using AotMapper;
 
 var mapper = new Mapper();
 
 var model = new Model();
-mapper.Map<Model, Dto>(model);
+Dto result = mapper.Map<Model, Dto>(model);
+// mapper.Map(model, new Dto());

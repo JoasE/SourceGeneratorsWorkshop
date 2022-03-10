@@ -1,1 +1,1 @@
-﻿
+﻿You need to use the RegisterForPostInitialization method on the GeneratorInitializationContext.

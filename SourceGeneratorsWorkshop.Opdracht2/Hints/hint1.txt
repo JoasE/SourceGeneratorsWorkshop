@@ -1,0 +1,1 @@
+﻿Find all invocations of the Mapper.Map<TSource, TDestination> method using the SyntaxTree and Semantic API.

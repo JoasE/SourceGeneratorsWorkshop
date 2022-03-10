@@ -1,0 +1,4 @@
+﻿Your source generator project needs to be referenced as an analyzer:
+<ProjectReference Include="..\Generator\Generator.csproj" 
+						OutputItemType="Analyzer" 
+						ReferenceOutputAssembly="false" />

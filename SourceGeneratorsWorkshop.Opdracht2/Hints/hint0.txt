@@ -1,1 +1,2 @@
-﻿
+﻿You need to split the definition of your Mapper class from the implementation of your Mapper class.
+You can do this by making it partial.

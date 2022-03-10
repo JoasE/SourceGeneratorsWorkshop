@@ -1,1 +1,6 @@
-﻿Change your source generator so this project compiles (and runs?) successfully.
+﻿Change your source generator so this project compiles and runs successfully.
+
+Use the generator's Execute method to add code on compile time.
+A method on the generator must exist for every call to mapper.Map<TSource, TDestination>() which accepts the source and destination as parameters.
+
+30 minutes

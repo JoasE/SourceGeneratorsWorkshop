@@ -1,1 +1,5 @@
-﻿Your source generator project need to target netstandard2.0
+﻿Use this code to attach the debugger on compile time:
+if (!Debugger.IsAttached)
+{
+    Debugger.Launch();
+}

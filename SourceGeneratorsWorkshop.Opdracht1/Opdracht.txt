@@ -1,1 +1,5 @@
-﻿Change your source generator so this project compiles successfully.
+﻿Change your source generator so this project compiles and runs successfully.
+Use the generator's Initialize method.
+
+
+5-10 minutes
