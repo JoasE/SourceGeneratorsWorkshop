@@ -1,1 +1,1 @@
-﻿Find all invocations of the Mapper.Map<TSource, TDestination> method using the SyntaxTree and Semantic API.
+﻿Find all invocations of the Mapper.Map<TSource, TDestination> method using the SyntaxTree API (see hin 2) and Semantic API (see hint 3).
