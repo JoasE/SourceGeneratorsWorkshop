@@ -1,0 +1,5 @@
+﻿Use this code to attach the debugger on compile time:
+if (!Debugger.IsAttached)
+{
+    Debugger.Launch();
+}

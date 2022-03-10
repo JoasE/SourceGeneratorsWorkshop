@@ -1,0 +1,1 @@
+﻿Your source generator project need to target netstandard2.0

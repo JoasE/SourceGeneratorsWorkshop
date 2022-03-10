@@ -1,0 +1,1 @@
+﻿Hit a breakpoint in your source generator when the project compiles.
