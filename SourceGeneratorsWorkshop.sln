@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceGeneratorsWorkshop.Op
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceGeneratorsWorkshop.Opdracht3", "SourceGeneratorsWorkshop.Opdracht3\SourceGeneratorsWorkshop.Opdracht3.csproj", "{B339C431-48C3-43BD-A494-EE5F97589BE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceGeneratorsWorkshop.Opdracht0", "SourceGeneratorsWorkshop.Opdracht0\SourceGeneratorsWorkshop.Opdracht0.csproj", "{09597AE9-D68B-4267-96D6-30BA83893BFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceGeneratorsWorkshop.Opdracht0", "SourceGeneratorsWorkshop.Opdracht0\SourceGeneratorsWorkshop.Opdracht0.csproj", "{09597AE9-D68B-4267-96D6-30BA83893BFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AotMapper.Generator", "AotMapper.Generator\AotMapper.Generator.csproj", "{1B0EFE29-E5DE-4C2D-BC73-F5E20212D584}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{09597AE9-D68B-4267-96D6-30BA83893BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09597AE9-D68B-4267-96D6-30BA83893BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09597AE9-D68B-4267-96D6-30BA83893BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0EFE29-E5DE-4C2D-BC73-F5E20212D584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0EFE29-E5DE-4C2D-BC73-F5E20212D584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0EFE29-E5DE-4C2D-BC73-F5E20212D584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0EFE29-E5DE-4C2D-BC73-F5E20212D584}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

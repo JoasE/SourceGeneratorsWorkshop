@@ -1,4 +1,4 @@
 ﻿Your source generator project needs to be referenced as an analyzer:
-<ProjectReference Include="..\Generator\Generator.csproj" 
+<ProjectReference Include="..\AotMapper.Generator\AotMapper.Generator.csproj" 
 						OutputItemType="Analyzer" 
 						ReferenceOutputAssembly="false" />
