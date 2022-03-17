@@ -1,6 +1,42 @@
 ﻿Change your source generator so this project compiles and runs successfully.
 
-Use the generator's Execute method to add code on compile time.
-A method on the generator must exist for every call to mapper.Map<TSource, TDestination>() which accepts the source and destination as parameters.
+Replace the code you added to the compilation in the Source Generator's Initialize method with this partial class definition:
+public partial class Mapper
+{
+    public partial TDestination Map<TSource, TDestination>(TSource source)
+        where TDestination : class, new();
+}
+
+Use the generator's Execute method to add more code on compile time
+Add this empty implementation of the partial class:
+public partial class Mapper
+{
+    public partial TDestination Map<TSource, TDestination>(TSource source)
+        where TDestination : class, new()
+    {
+        return new TDestination();
+    }
+
+    {YOUR CODE HERE}
+
+}
+
+And add a method for every call to mapper.Map<TSource, TDestination>() which accepts the source and destination as parameters.
+You should do this by looking through the compilations expression trees and adding the code dynamically using a StringBuilder.
+
+Your produced source should look like this after your source generator is done running.
+
+public partial class Mapper
+{
+    public partial TDestination Map<TSource, TDestination>(TSource source)
+        where TDestination : class, new()
+    {
+        return new TDestination();
+    }
+
+    public void Map(SourceGeneratorsWorkshop.Opdracht2.Model s, SourceGeneratorsWorkshop.Opdracht2.Dto d)
+    {
+    }
+}
 
 30 minutes

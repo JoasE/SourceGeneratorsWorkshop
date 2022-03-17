@@ -1,3 +1,0 @@
-﻿You can get the Symbol of an InvocationExpressionSyntax by invoking the GetSymbolInfo method on the semantic model passing the InvocationExpressionSyntax's expression.
-
-Use the ConstructedFrom property to get the generic method definition.

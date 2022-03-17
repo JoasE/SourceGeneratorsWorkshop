@@ -1,3 +1,29 @@
-﻿Change your source generator so this project compiles and runs(!) successfully.
+﻿Change your source generator so this project compiles and runs successfully.
 
-Extra
+Add a switch statement to the Mappers generic Map method to invoke the right mapping method.
+
+Your produced source should look like this after your source generator is done running.
+public partial class Mapper
+{
+    public partial TDestination Map<TSource, TDestination>(TSource source)
+        where TDestination : class, new()
+    {
+        var destination = new TDestination();
+        switch (source, destination)
+        {
+            case (SourceGeneratorsWorkshop.Opdracht3.Model s, SourceGeneratorsWorkshop.Opdracht3.Dto d):
+                Map(s, d);
+                break;
+            default:
+                throw new System.NotSupportedException();
+        }
+
+        return destination;
+    }
+
+    private void Map(SourceGeneratorsWorkshop.Opdracht3.Model s, SourceGeneratorsWorkshop.Opdracht3.Dto d)
+    {
+        d.Id = s.Id;
+        d.Name = s.Name;
+    }
+}

@@ -1,5 +1,13 @@
 ﻿Change your source generator so this project compiles and runs successfully.
-Use the generator's Initialize method.
+Use the generator's Initialize method to register a callback for after the initialization.
+This callback should add some source code to the compilation.
+The source code that should be added is a class called Mapper in the namespace AotMapper:
+namespace AotMapper
+{
+    public class Mapper
+    {
+    }
+}
 
 
-5-10 minutes
+10 minutes

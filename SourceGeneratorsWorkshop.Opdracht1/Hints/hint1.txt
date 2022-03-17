@@ -1,1 +1,1 @@
-﻿You need to use the AddSource method to add your code to the compilation
+﻿You need to use the AddSource method to add your code to the compilation. Read it's documentation thoroughly

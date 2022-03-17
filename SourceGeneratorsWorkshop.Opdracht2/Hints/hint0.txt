@@ -1,2 +1,1 @@
-﻿You need to split the definition of your Mapper class from the implementation of your Mapper class.
-You can do this by making it partial.
+﻿You should be looking for one of the DescendantNodes of every expression tree of the compilation for a InvocationExpressionSyntax
