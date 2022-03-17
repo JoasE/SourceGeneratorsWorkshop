@@ -5,4 +5,4 @@ var mapper = new Mapper();
 
 var model = new Model();
 Dto result = mapper.Map<Model, Dto>(model);
-// mapper.Map(model, new Dto());
+mapper.Map(model, new Dto());
