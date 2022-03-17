@@ -17,6 +17,13 @@ namespace AotMapper.Generator
 
         public void Initialize(GeneratorInitializationContext context)
         {
+            context.RegisterForPostInitialization(postContext => postContext.AddSource("Mapper.cs", @"namespace AotMapper
+{
+    public class Mapper
+    {
+    }
+}
+"));
         }
     }
 }
